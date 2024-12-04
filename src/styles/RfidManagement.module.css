@@ -1,0 +1,44 @@
+.Container {
+    padding: 20px;
+    background-color: #ffffff; /* Light background for consistency */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+    margin: -2px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  
+
+/* Table.module.css */
+.tableContainer {
+    margin: 0px;
+    /* padding: 20px; */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f4f4f4;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+  }
+  

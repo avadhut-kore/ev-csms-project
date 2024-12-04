@@ -1,0 +1,59 @@
+.fileInput{
+    display: none;
+}
+
+.ButtonParent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.uploadImagesButton{
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imagesParent{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.images{
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    width: 200px;
+    height: 150px;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.crossAndImages{
+    position: relative;
+}
+
+.cross{
+    position: absolute;
+    top: 0;
+    left: 170px;
+    cursor: pointer;
+    z-index: 10;
+    background: none;
+    border: none;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.removing {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.cross.removing {
+    opacity: 0;
+    transform: scale(0.9);
+}

@@ -1,0 +1,71 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+   
+}
+
+.errorMessage {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    /* Ensure table cell contents are aligned properly */
+    vertical-align: middle;
+}
+
+.actionButtons {
+    display: inline-flex; /* Align buttons in a row */
+    gap: 10px; /* Space between buttons */
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.addButton,
+.editButton,
+.saveButton,
+.deleteButton {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 0;
+    cursor: pointer;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.deleteButton {
+    background-color: #e63946;
+}
+
+.saveButton {
+    background-color: #38b000;
+}
+
+.addButton {
+    background-color: #8e44ad;
+}
+
+.addButton:hover,
+.editButton:hover,
+.saveButton:hover,
+.deleteButton:hover {
+    opacity: 0.8;
+}

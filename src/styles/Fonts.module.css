@@ -1,0 +1,40 @@
+/* Import the font from Google Fonts */
+@import url('https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800');
+
+body {
+  font-family: 'Roboto', sans-serif; /* Apply to the whole body */
+  font-size: 16px; /* Base font size */
+  color: #333; /* Default text color */
+}
+
+h1 {
+  font-size: 28px; /* Main heading */
+  font-weight: 700; /* Bold */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px; /* Subheading */
+  font-weight: 600; /* Semi-bold */
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 20px; /* Section heading */
+  font-weight: 500; /* Medium */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px; /* Paragraph text */
+  font-weight: 400; /* Regular */
+  margin-bottom: 15px;
+}
+
+button, .buttonGroup button {
+  font-size: 16px; /* Button text */
+  font-weight: 500; /* Medium */
+  cursor: pointer;
+}
+
+/* Adjust any other specific elements if needed */

@@ -1,0 +1,24 @@
+/* Analytics Updated Styles */
+.analytics {
+  padding: 25px; /* Match padding */
+  background-color: #ffffff; /* Match background color */
+  border-radius: 12px; /* Match border radius */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Match box-shadow */
+  margin: 10px; /* Align margin */
+  display: flex;
+  flex-direction: column;
+}
+
+.analytics h2 {
+  font-size: 22px; /* Match font size */
+  font-weight: 700; /* Match font weight */
+  color: #333; /* Match color */
+  margin-bottom: 15px; /* Match margin */
+  text-transform: uppercase; /* Match text transform */
+  letter-spacing: 1px; /* Match letter spacing */
+  background-color: #e0e0e0; /* Match background color */
+  padding: 20px; /* Match padding */
+  border-radius: 8px; /* Match border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Match box-shadow */
+  text-align: left; /* Align text to the left */
+}

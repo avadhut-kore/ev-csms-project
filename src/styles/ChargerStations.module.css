@@ -1,0 +1,236 @@
+.chargerTypes {
+  padding: 25px;
+  background-color: #ffffff; /* Light background for consistency */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+  margin: 15px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chargerTypes h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333; /* Dark color for better readability */
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #e0e0e0; /* Subtle background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chargerTypeList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.chargerTypeList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  background-color: #fafafa; /* Light background for list items */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.chargerTypeList li:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.chargerTypeName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222; /* Darker text for contrast */
+}
+
+.chargerTypeDescription {
+  font-size: 15px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+}
+
+.searchSortContainer {
+  display: flex;
+  justify-content: 10px; /* Align content to the left */
+  gap: 12px;
+  flex-wrap: wrap; /* Allow wrapping for dashboard layout */
+}
+
+.chargerTypeList button {
+  padding: 10px 15px;
+  background-color: #1e2a38; /* Updated button color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  /* cursor: pointer; */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  
+}
+
+.chargerTypeList button:hover {
+  background-color: #1a2330; /* Slightly darker on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.form .buttonGroup {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.form input,
+.form textarea {
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button[type="submit"] {
+  background-color: #1e2a38; /* Updated button color */
+  color: white;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #1a2330; /* Slightly darker on hover */
+}
+
+.form .cancelButton {
+  background-color: #1e2a38;
+  color: white;
+}
+
+.form .cancelButton:hover {
+  background-color: #1e2a38;
+}
+
+.form h3 {
+  text-align: start;
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.form .formLabel {
+  display: block;
+  font-weight: bold;
+  margin-bottom: -.9rem;
+
+}
+
+.addNewButton {
+  padding: 12px 20px;
+  background-color: #e1e3e6; /* Updated button color */
+  color: black;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 40px;
+  margin-left: auto;
+}
+
+.searchInput {
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid #1e2a38;
+  height: 11px;
+  width: 300px;
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for effects */
+  margin: 10px;
+}
+
+.searchInput:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.sortDropdown {
+  padding: 12px 20px; /* Keep padding for spacious feel */
+  border-radius: 30px; /* Rounded corners */
+  border: 1px solid #1e2a38; /* Darker border to match theme */
+  height: 50px; /* Consistent height */
+  width: 200px; /* Set a specific width for consistency */
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for effects */
+}
+
+.sortDropdown:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+
+
+
+
+
+/* Table.module.css */
+.tableContainer {
+    margin: 0px;
+    /* padding: 20px; */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f4f4f4;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+  }
+  

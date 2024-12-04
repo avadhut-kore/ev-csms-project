@@ -1,0 +1,239 @@
+.sidebar {
+  background-color: #4cb050;  /* Matching the navbar background color */
+  color: #fff;
+  width: 200px;
+  height: 95%;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #f4f4f4;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  /* overflow-y: auto; */
+}
+
+.sidebar li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.sidebar a {
+  color: #b3d4fc;  /* Matching the navbar link color */
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: rgba(179, 212, 252, 0.2);  /* Hover effect */
+  color: #fff;
+}
+
+.menuHeader {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.subMenu {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.active a {
+  background-color: rgba(179, 212, 252, 0.3);  /* Slight highlight for active state */
+  color: #fff;
+}
+/* Sidebar Text Styles */
+.sidebar {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; /* Clean, modern font */
+  font-size: 16px; /* Standard font size */
+  color: #b3d4fc; /* Light blue color for text */
+  letter-spacing: 0.5px; /* Slightly spaced letters for readability */
+}
+
+.sidebar a {
+  color: #333; /* Light blue color for links */
+  font-weight: 600; /* Medium weight for visibility */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.sidebar a:hover {
+  color: white; /* White text on hover */
+}
+
+.sidebar h2 {
+  font-size: 1.5rem; /* Bold and prominent heading */
+  color: white; /* Light gray color for headings */
+  margin-bottom: 1.5rem; /* Space below heading */
+}
+
+.menuHeader {
+  font-size: 1.2rem; /* Menu headers */
+  color: #f4f4f4; /* Light gray color for headers */
+  font-weight: 600; /* Slightly bolder to stand out */
+  margin-top: 15px; /* Space above header */
+  padding-bottom: 10px; /* Space below header */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle underline */
+}
+
+.sortDropdown {
+  padding: 10px;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.dropdownContainer {
+  margin: 1rem 0;
+}
+
+.dropdownLabel {
+  color: #e0e0e0; /* Softer label color */
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  display: block; /* Ensure label is block for better spacing */
+}
+
+.sortDropdown {
+  width: 100%;
+  padding: 0.5rem;
+  /* border: 2px solid #3c4a57; */
+  border-radius: 9px;
+  background-color: #4eaf52;
+  color: #181616;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+}
+
+.sortDropdown:focus {
+  outline: none;
+  border-color: #61dafb; /* Light blue border on focus */
+  box-shadow: 0 0 10px rgba(97, 218, 251, 0.5); /* Enhanced focus glow effect */
+}
+
+.sortDropdown option {
+  background-color: #2a3640; /* Options background */
+  color: #ffffff; /* Options text color */
+}
+
+/* Optional: Add hover effect for dropdown */
+.sortDropdown:hover {
+  border-color: #61dafb; /* Change border color on hover */
+}
+/* Search Bar Container */
+.searchBar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Search Input Styles */
+.searchInput {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px; /* Subtle rounding */
+  border: 1px solid #3c4a57; /* Dark border */
+  background-color: #2a3640; /* Dark background */
+  color: #ffffff; /* White text */
+  font-size: 1rem;
+  margin-right: 15px; /* Space between input and dropdown */
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #61dafb; /* Light blue border on focus */
+}
+
+/* Dropdown Styles */
+.dropdown {
+  padding: 10px;
+  border-radius: 5px; /* Subtle rounding to match input */
+  background-color: #2a3640; /* Dark background */
+  border: 1px solid #3c4a57; /* Dark border */
+  color: #ffffff; /* White text */
+  font-size: 1rem;
+  margin-right: 15px; /* Space between dropdown and button */
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.dropdown:focus {
+  outline: none;
+  border-color: #61dafb; /* Light blue on focus */
+}
+
+/* Button Styles */
+.searchButton {
+  padding: 12px 20px;
+  border-radius: 5px; /* Consistent with other elements */
+  border: none;
+  background-color: #1abc9c; /* Primary green */
+  color: #ffffff; /* White text */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #16a085; /* Slightly darker on hover */
+}
+
+.scrollbar {
+  overflow-y: auto;
+  height: calc(82vh - 100px);
+  /* padding-top: 20px; */
+  width: 219px;
+
+}
+
+/* Custom scrollbar styles for modern browsers */
+.scrollbar::-webkit-scrollbar {
+  width: 10px; /* Set the width of the vertical scrollbar */
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Scrollbar thumb color */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Hover state color */
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Track color (background of the scrollbar) */
+  border-radius: 5px; /* Rounded corners for the track */
+}
+
+
+/* Add to your styles.module.css or global styles */
+.logoutSection {
+  margin-top: auto; /* Pushes the logout button to the bottom of the sidebar */
+  padding-top: 20px;
+}
+
+.logoutButton {
+  background-color: #4cb050; /* Red color for logout */
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #38a73c; /* Darker red on hover */
+}

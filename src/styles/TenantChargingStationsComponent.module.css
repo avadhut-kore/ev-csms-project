@@ -1,0 +1,209 @@
+/* ChargingStations Updated Styles */
+.chargingStations {
+  padding: 25px; /* Match padding */
+  background-color: #ffffff; /* Match background color */
+  border-radius: 12px; /* Match border radius */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Match box-shadow */
+  margin: 10px; /* Match margin */
+  display: flex;
+  flex-direction: column;
+}
+
+.chargingStations h2 {
+  font-size: 22px; /* Match font size */
+  font-weight: 700; /* Match font weight */
+  color: #333; /* Match color */
+  margin-bottom: 15px; /* Match margin */
+  text-transform: uppercase; /* Match text-transform */
+  letter-spacing: 1px; /* Match letter-spacing */
+  background-color: #e0e0e0; /* Match background color */
+  padding: 20px; /* Match padding */
+  border-radius: 8px; /* Match border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Match box-shadow */
+  text-align: left; /* Align header to the left */
+}
+
+.chargingStationList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.chargingStationList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px; /* Match padding */
+  background-color: #fafafa; /* Match background color */
+  border-radius: 8px; /* Match border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Match box-shadow */
+  margin-bottom: 12px; /* Match margin-bottom */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Match transition */
+}
+
+.chargingStationList li:hover {
+  background-color: #f0f0f0; /* Match hover background color */
+  transform: translateY(-2px); /* Match hover transform effect */
+}
+
+.chargingStationName {
+  font-size: 18px; /* Match font size */
+  font-weight: 600; /* Match font weight */
+  color: #222; /* Match color */
+}
+
+.chargingStationDescription {
+  font-size: 15px; /* Match font size */
+  color: #555; /* Match color */
+  margin-top: 5px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 12px; /* Match gap */
+}
+
+.chargingStationList button {
+  padding: 10px 15px; /* Match padding */
+  background-color: #1e2a38; /* Match button color */
+  border: none;
+  border-radius: 5px; /* Match border radius */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Match transition */
+}
+
+.chargingStationList button:hover {
+  background-color: #1a2330; /* Match hover background color */
+  transform: scale(1.05); /* Match hover transform effect */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Match gap */
+  padding: 25px; /* Match padding */
+  background-color: #ffffff; /* Match background color */
+  border-radius: 12px; /* Match border radius */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Match box-shadow */
+}
+
+.form .buttonGroup {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px; /* Match gap */
+}
+
+.form input,
+.form textarea {
+  padding: 14px; /* Match padding */
+  border-radius: 8px; /* Match border radius */
+  border: 1px solid #ddd; /* Match border color */
+  font-size: 16px; /* Match font size */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 120px; /* Match minimum height */
+}
+
+.form button {
+  padding: 14px; /* Match padding */
+  border-radius: 8px; /* Match border radius */
+  border: none;
+  font-size: 16px; /* Match font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Match transition */
+}
+
+.form button[type="submit"] {
+  background-color: #1e2a38; /* Match button color */
+  color: white;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #1a2330; /* Match hover background color */
+  transform: scale(1.05); /* Match hover transform effect */
+}
+
+.form .cancelButton {
+  background-color: #1e2a38; /* Match button color */
+  color: white;
+}
+
+.form .cancelButton:hover {
+  background-color: #1a2330; /* Match hover background color */
+  transform: scale(1.05); /* Match hover transform effect */
+}
+
+.form h3 {
+  text-align: center;
+  color: #333; /* Match color */
+  font-size: 22px; /* Match font size */
+  margin-bottom: 20px; /* Match margin */
+}
+
+.addNewButton {
+  padding: 12px 22px; /* Match padding */
+  background-color: #1e2a38; /* Match button color */
+  color: white;
+  font-size: 16px; /* Match font size */
+  border-radius: 8px; /* Match border radius */
+  cursor: pointer;
+  height: 45px; /* Match height */
+}
+
+.searchInput {
+  padding: 12px 20px; /* Keep padding for spacious feel */
+  border-radius: 30px; /* Rounded corners */
+  border: 1px solid #1e2a38; /* Darker border to match theme */
+  height: 25px; /* Match height with dropdown */
+  width: 150px; /* Set a specific width for consistency */
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for effects */
+}
+
+.searchInput:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.sortDropdown {
+  padding: 12px 20px; /* Keep padding for spacious feel */
+  border-radius: 30px; /* Rounded corners */
+  border: 1px solid #1e2a38; /* Darker border to match theme */
+  height: 50px; /* Consistent height */
+  width: 200px; /* Set a specific width for consistency */
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for effects */
+}
+
+.sortDropdown:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.searchSortContainer {
+  display: flex;
+  justify-content: 10px; /* Align content to the left */
+  gap: 12px;
+  flex-wrap: wrap; /* Allow wrapping for dashboard layout */
+}
+
+.cancelBackbuttonParent{
+  display: flex;
+  justify-content: center;
+}
+
+.cancelBackbutton{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #1e2a38;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 90px;
+}

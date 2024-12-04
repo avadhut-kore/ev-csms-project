@@ -1,0 +1,22 @@
+.logoutButton {
+  background-color: #1e2a38; /* Matching the dark navy blue from the navbar and sidebar */
+  color: #b8cce6; /* Soft light blue text for contrast */
+  font-size: 12px;
+  padding: 8px 16px;
+  border: 1px solid #b3d4fc; /* Light blue border to tie in with the color scheme */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: rgba(179, 212, 252, 0.2); /* Light blue hover effect */
+  color: #fff; /* White text on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.logoutButton:active {
+  background-color: #b3d4fc; /* Light blue background on click */
+  color: #1e2a38; /* Dark text on click */
+  transform: translateY(0); /* Button returns to normal */
+}

@@ -1,0 +1,29 @@
+.DayTogglesParent{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.toogleSwitch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.openCloseInput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.openCloseInput input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(130, 120, 120);
+    width: 40%;
+}
+
+.errorSymbol{
+    cursor: default;
+}

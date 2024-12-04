@@ -1,0 +1,105 @@
+/* Styling for the login form container */
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 85vh;
+}
+
+/* Form styling */
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  /* max-width: 375px; */
+  padding: 23px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/* Input field and labels */
+.formGroup {
+  margin-bottom: 21px;
+}
+
+.formGroup label {
+  /* font-size: larger; */
+}
+
+.formGroup input {
+  width: 93%;
+  /* height: 22px; */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* font-size: 18px; */
+}
+
+/* Login button styling */
+.loginButton {
+  padding: 10px;
+  background-color: #738677;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loginButton:hover {
+  background-color: #8d9b90;
+}
+
+/* Error message */
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Social Media Section */
+.socialLoginContainer {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.socialLoginText {
+  margin-bottom: 10px;
+  font-size: 19px;
+  color: #555;
+}
+
+/* Social icons styling */
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.socialIcon {
+  color: #333;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.socialIcon:hover {
+  color: #0077b5; /* Default hover color (can be changed) */
+}
+
+.socialIcon:focus {
+  outline: none;
+}
+
+/* Add more styling here if you want */

@@ -1,0 +1,235 @@
+.navbar {
+  background-color: #1e2a38;  /* A sleek dark navy blue */
+  color: hsl(0, 0%, 100%);
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar a {
+  color: #b3d4fc;  /* Soft light blue for text */
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: rgba(179, 212, 252, 0.2);  /* Lighter blue hover effect */
+  border-radius: 5px;
+  color: #fff;  /* White text on hover */
+}
+
+/* Navbar Text Styles */
+.navbar {
+  font-family: 'Montserrat', 'Arial', sans-serif; /* Modern, clean font */
+  font-size: 16px; /* Slightly smaller font size for a subtle look */
+  color: #ffffff; /* White color for text */
+  letter-spacing: 0.5px; /* Slightly increased spacing for readability */
+}
+
+.navbar a {
+  color: #f0f0f0; /* Soft light gray for links */
+  font-weight: 600; /* Slightly bolder text for emphasis */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 15px; /* Adjusted padding for balance */
+  border-radius: 5px; /* Rounded corners for a modern look */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.navbar a:hover {
+  color: #ffffff; /* White text on hover */
+  background-color: rgba(255, 255, 255, 0.2); /* Subtle background highlight */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+}
+
+.navbar h1 {
+  font-size: 1.6rem; /* Smaller heading size for a balanced look */
+  color: #ffffff; /* White color for headings */
+  margin: 0; /* Remove default margin */
+  letter-spacing: 0.8px; /* Slightly increased spacing for emphasis */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e2a38; /* Dark navy background for navbar */
+  color: #fff; /* White text */
+}
+
+.leftSection h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+.logoutButton {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid #fff; /* White border */
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #fff;
+  color: #1e2a38; /* Dark color on hover */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e2a38; /* Dark navy background for navbar */
+  color: #fff; /* White text */
+}
+
+.leftSection h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Space between icons and button */
+}
+
+.icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #aaa; /* Light grey on hover */
+}
+
+.logoutButton {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid #fff; /* White border */
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #fff;
+  color: #1e2a38; /* Dark color on hover */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #4cb050; /* Dark navy background for navbar */
+  color: #fff; /* White text */
+}
+
+.leftSection h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Space between icons */
+}
+
+.icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #aaa; /* Light grey on hover */
+}
+
+/* Profile dropdown container */
+.profileDropdown {
+  position: relative;
+}
+
+/* Dropdown menu */
+.dropdownMenu {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  background-color: #fff;
+  color: #1e2a38;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-width: 150px;
+  z-index: 100;
+}
+
+.dropdownItem {
+  margin: 0;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdownItem:hover {
+  background-color: #f0f0f0;
+}
+
+/* Logout button in the dropdown */
+.logoutButton {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #1e2a38;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.logoutButton:hover {
+  background-color: #374556; /* Lighter shade of the dark color */
+}
+
+
+/* Main container for the dropdown and logout button */
+.container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Vertically align the items */
+  gap: 12px; /* Add space between the dropdown and the button */
+}
+
+.dropdownContainer, .dateContainer {
+  /* display: flex;
+  flex-direction: column;  */
+  gap: 8px; /* Space between label and input */
+
+}
+
+.sortDropdown, .searchInput {
+  padding: 6px 19px;
+  border-radius: 5px;
+  border: 1px solid #1e2a38;
+  /* height: 40px;  */
+  /* width: 100%;  */
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}

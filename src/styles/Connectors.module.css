@@ -1,0 +1,55 @@
+.connectors {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.connectors h2 {
+  margin-bottom: 20px;
+}
+
+.connectorList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.connectorList li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.connectorList span {
+  flex-grow: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #0070f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form .cancelButton {
+  background-color: #f44336;
+}
