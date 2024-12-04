@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    environment:
+      - NODE_ENV=development
+    command: sh -c "yarn install && yarn dev"
+    stdin_open: true
+    tty: true

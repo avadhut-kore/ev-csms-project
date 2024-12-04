@@ -1,0 +1,27 @@
+# version: '3.8'
+# services:
+#   web:
+#     image: node:18-alpine
+#     container_name: nextjs-dev
+#     working_dir: /app
+#     volumes:
+#       - ./:/app
+#       - /app/node_modules
+#     ports:
+#       - "3000:3000"
+#     command: sh -c "yarn install && yarn dev"
+#     environment:
+#       - NODE_ENV=development
+#     stdin_open: true
+#     tty: true
+
+version: '3.8'
+services:
+  web:
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
